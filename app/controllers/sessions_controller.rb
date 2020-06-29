@@ -1,5 +1,8 @@
 class SessionsController < ApplicationController
+  
   def create
-    if !params[:name] || params[:name].empty?
+    if !params[:name]
+    end
+    
   end
 end
